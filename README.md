@@ -35,5 +35,5 @@ cd .dotfiles
 Then use GNU stow to create symlinks for the files.
 
 ```
-$ stow .
+stow .
 ```
