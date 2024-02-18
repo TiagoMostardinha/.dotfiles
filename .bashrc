@@ -1,15 +1,14 @@
 #!/bin/bash
 
 # Colors
-reset_color="\e[0m"
-placeholder_color="\e[1;90m"
-user_color="\e[1;32m"
-directory_color="\e[1;34m"
+reset_color=""
+placeholder_color=""
+user_color=""
+directory_color=""
 
 # Import scripts
 SCRIPTS="$HOME/.dotfiles/scripts"
 
-source "$SCRIPTS/vars.sh"
 source "$SCRIPTS/default_bash.sh"
 source "$SCRIPTS/focus_on_project.sh"
 source "$SCRIPTS/git_parser.sh"
@@ -23,7 +22,6 @@ command_exists() {
 }
 
 # Placeholder
-hasPlaceholder=false
 parse_placeholder() {
     local info=""
 
@@ -37,12 +35,9 @@ parse_placeholder() {
         return
     fi
 
-    hasPlaceholder=true
-
+    local info_length=${#info}
     echo -n "$placeholder_color$info$reset_color"
-    info_length=${#info}
     tput cub $info_length
-
 }
 
 # Main function
@@ -64,15 +59,8 @@ init() {
 }
 
 clear_prompt() {
-    if [ "$hasPlaceholder" = false ]; then
-        return
-    fi
-
     sleep 1
-    tput sc
     tput el
-    tput rc
-    hasPlaceholder=false
 }
 
 # Calling functions each time
