@@ -51,20 +51,16 @@ init() {
         PS1+="\w"
     fi
     PS1+="]$reset_color\$ "
-
-    local placeholder=$(parse_placeholder)
-    if [ -n "$placeholder" ]; then
-        PS1+="$placeholder"
-    fi
 }
 
-clear_prompt() {
+show_placeholder() {
+    parse_placeholder
     sleep 1
-    tput el
+    tput ed
 }
 
 # Calling functions each time
-PROMPT_COMMAND="set_working_directory;init;(clear_prompt &);"
+PROMPT_COMMAND="set_working_directory;init;(show_placeholder &);"
 
 ############################
 
