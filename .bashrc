@@ -7,7 +7,7 @@ user_color=""
 directory_color=""
 
 # Import scripts
-SCRIPTS="$HOME/.dotfiles/scripts"
+SCRIPTS="$HOME/.dotfiles/.config/bash"
 
 source "$SCRIPTS/default_bash.sh"
 source "$SCRIPTS/focus_on_project.sh"
