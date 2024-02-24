@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "8e728ec1f6305fe6",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa530426497bea47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "183a091c4ca9f466",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Notes/networkAC.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54fddf69c95aa605",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f2e93dd5877c5f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Notes/Warframe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3330b3115fafd510",
+    "type": "split",
+    "children": [
+      {
+        "id": "897322c9abcd47d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a0c50c24218aae7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed381b04e78200c4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#class",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b9c7651980d7b84",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "980c5bcb2fcdbb47",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b78653894fd2606",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee2326dbe0a68c69",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 Notes/Warframe.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "07a07fcb51dbceb8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 Notes/Warframe.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "33cc036138255a2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5f470670537fc7d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00 Notes/Warframe.md"
+              }
+            }
+          },
+          {
+            "id": "2d25f7afec9cef63",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7d9c96adf5f9384d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "5f2e93dd5877c5f7",
+  "lastOpenFiles": [
+    "00 Notes/networkAC.md",
+    "00 Notes/Projeto AC.md",
+    "00 Notes/guiao 2.md",
+    "00 Notes/Projeto 3.md",
+    "00 Notes/Templates.md",
+    "00 Notes/Amdahls.md",
+    "00 Notes/config_AC.md",
+    "00 Notes/Media.md",
+    "ToDo.md",
+    "00 Notes/MP-BGP.md",
+    "00 Notes/Warframe.md",
+    "00 Notes/Request.md",
+    "00 Notes/Projeto AAD.md",
+    "00 Notes/Predictors.md",
+    "00 Notes/Port Numbers.md",
+    "00 Notes/MVC.md",
+    "00 Notes/Middleware.md",
+    "00 Notes/LocalHost.md",
+    "00 Notes/HTTP Status Codes.md",
+    "00 Notes/Golomb.md",
+    "00 Notes/FlipFlop Latch.md",
+    "02 Files/Pasted image 20231202190020.png",
+    "02 Files/Pasted image 20231202174622.png",
+    "02 Files/Pasted image 20231202160904.png",
+    "03 Templates/class.md",
+    "03 Templates/learning.md",
+    "03 Templates/project.md",
+    "03 Templates/moc.md",
+    "02 Files/Pasted image 20231017095927.png",
+    "02 Files/Pasted image 20231017095905.png",
+    "01 References/moc",
+    "02 Files/Pasted image 20231017100759.png",
+    "02 Files/Pasted image 20231017094939.png",
+    "Calendar",
+    "Untitled.canvas",
+    "Projects/Untitled",
+    "Projects",
+    "03 Templates",
+    "02 Files",
+    "01 References",
+    "00 Notes"
+  ]
+}

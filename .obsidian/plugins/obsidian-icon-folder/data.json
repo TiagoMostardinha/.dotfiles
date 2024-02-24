@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FarRectangleList",
+      "FarObjectGroup",
+      "FarDiagramProject",
+      "FarCalendarCheck",
+      "FarCopy"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "00 Notes": "FarPenToSquare",
+  "01 References": "FarShareFromSquare",
+  "02 Files": "FarImage",
+  "03 Templates": "FarCopy",
+  "ToDo.md": "FarRectangleList",
+  "Projects": "FarObjectGroup",
+  "Calendar": "FarCalendarCheck"
+}
