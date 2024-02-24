@@ -13,6 +13,7 @@ source "$SCRIPTS/default_bash.sh"
 source "$SCRIPTS/focus_on_project.sh"
 source "$SCRIPTS/git_parser.sh"
 source "$SCRIPTS/venv_parser.sh"
+source "$SCRIPTS/vars_alias_shortcuts.sh"
 
 ############################
 
