@@ -2,5 +2,5 @@
 
 historyFZF ()
 {
-  history | fzf
+    history | sort --reverse --numeric-sort | fzf
 }
