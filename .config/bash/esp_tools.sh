@@ -50,3 +50,6 @@ function esp_tools() {
     done
     OPTIND=1
 }
+
+# Alias
+alias get_idf='. $HOME/esp/esp-idf/export.sh'

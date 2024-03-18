@@ -14,6 +14,8 @@ source "$SCRIPTS/focus_on_project.sh"
 source "$SCRIPTS/git_parser.sh"
 source "$SCRIPTS/venv_parser.sh"
 source "$SCRIPTS/vars_alias_shortcuts.sh"
+source "$SCRIPTS/history_search.sh"
+source "$SCRIPTS/esp_tools.sh"
 
 ############################
 
@@ -63,8 +65,3 @@ show_placeholder() {
 # Calling functions each time
 PROMPT_COMMAND="set_working_directory;init;(show_placeholder &);"
 
-############################
-
-# Aliases
-
-# Shortcuts

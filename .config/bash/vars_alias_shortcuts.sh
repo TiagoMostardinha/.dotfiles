@@ -2,10 +2,10 @@
 export GOPATH=$HOME/go
 
 # Alias
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
 alias fp='toggle_focus_on_project'
+alias hist='historyFZF'
 
 # Shortcut
 
-# Init program
-eval "$(zoxide init bash)"
+# Import program
+eval "$(zoxide init --cmd cd bash)"
