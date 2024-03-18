@@ -22,3 +22,6 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# Zoxide
+eval "$(zoxide init bash)"
