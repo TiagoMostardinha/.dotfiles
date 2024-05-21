@@ -23,5 +23,3 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# Zoxide
-eval "$(zoxide init bash)"

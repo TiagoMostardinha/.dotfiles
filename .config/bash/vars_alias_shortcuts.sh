@@ -9,4 +9,4 @@ alias vi='nvim'
 # Shortcut
 
 # Import program
-eval "$(zoxide init --cmd cd bash)"
+eval "$(zoxide init bash --cmd cd)"
